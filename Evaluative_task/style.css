@@ -1,0 +1,187 @@
+.image-section {
+    position: relative;
+    text-align: center;
+}
+
+.section-image {
+    width: 100%;
+    height: 100%;
+}
+
+.text-on-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 80px;
+}
+
+.background-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    color: rgba(229, 218, 218, 0.2);
+    z-index: -1;
+}
+
+.out-happy {
+    width: 537px;
+    height: 37px;
+    color: #432e3d;
+    font-family: Montserrat;
+    font-size: 100px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    color: #b65340;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent !important;
+}
+
+.navbar-text,
+.navbar-text a {
+    color: #fff !important;
+}
+
+.custom-box {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.image-separator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.image-separator img {
+    max-width: 100%;
+    height: auto;
+}
+
+.separator {
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+.section_3 {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 0;
+    width: 100%;
+}
+
+.box {
+    color: #fff;
+    padding: 20px;
+    border: 2px solid #fff;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 5%;
+}
+
+.box.box-1 {
+    background-color: #fff;
+    color: #000;
+}
+
+.box-content {
+    display: flex;
+    align-items: center;
+}
+
+.box-content img {
+    max-width: 100%;
+    margin-left: 10px;
+}
+
+.box-reverse .box-content {
+    flex-direction: row-reverse;
+}
+
+.products-text {
+    width: 1518px;
+    height: 323px;
+    color: #1d1d1d;
+    font-family: "Dancing Script";
+    font-size: 400px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: 40px;
+    line-height: normal;
+}
+
+.section {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 50px 0;
+    text-align: left;
+}
+
+.dancing-header {
+    font-family: "Dancing Script";
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.secondary-header {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.column {
+    display: flex;
+    align-items: left;
+    margin-bottom: 20px;
+}
+
+.column img {
+    max-width: 100%;
+    margin-right: 20px;
+}
+
+.rounded-top-image {
+    overflow: hidden;
+}
+.rounded-top-image img {
+    width: 50%;
+}
+
+.form-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 5px;
+}
